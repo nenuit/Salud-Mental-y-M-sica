@@ -14,7 +14,7 @@ st.set_page_config(
 
 def home_page():
     st.title('Análisis de la música y la salud mental')
-    photo1= r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\calma_1_fuente_es_dreamstime_com.jpeg'
+    photo1= r'SALUD MENTAL Y MUSICA/IMÁGENES/calma_1_fuente_es_dreamstime_com.jpeg'
     col1, col2, col3 = st.columns(3)
     with col1:
         ""
@@ -26,8 +26,8 @@ def home_page():
     st.write('La **motivación de este estudio** está relacionada con el **peso crucial** que tiene la **salud mental** en el **bienestar global de la población**. Según el Centro de Investigaciones Sociológicas (CIS), desde el inicio de la pandemia hasta la actualidad, un 6,4% de la población ha acudido a un profesional de la salud mental por algún tipo de síntoma, **siendo el mayor porcentaje un 43,7% por ansiedad** y un **35,5% por depresión.**')
     st.write('Según el periódico Expansión.com **por cada 100.000 habitantes la tasa de suicidio en 2022 estaba en 8.8 puntos.**')
     st.write('Por otro lado, la **música** es una de las **herramientas más poderosas** para **mejorar la salud mental**. Según la **Universidad de Stanford**, la música puede **reducir la ansiedad**, **mejorar el estado de ánimo** y **aumentar la calidad de vida**.')    
-    photo1 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\ansiedad_3_fuente_menteamante_com.jpeg'
-    photo2 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\cura_alma_fuente_andart_music.png'
+    photo1 = r'SALUD MENTAL Y MUSICA/IMÁGENES/ansiedad_3_fuente_menteamante_com.jpeg'
+    photo2 = r'SALUD MENTAL Y MUSICA/IMÁGENES/cura_alma_fuente_andart_music.png'
     col1, col2 = st.columns(2)
     with col1:
         st.image(photo1)
@@ -38,7 +38,7 @@ def home_page():
         st.write("""Soy analista de datos, especializada en análisis y ciencia de datos. 
                 Mi objetivo es ayudar a las empresas a tomar decisiones basadas en datos, a través de análisis de datos, visualizaciones interactivas y ciencia de datos.""")
         st.write("**Transformaré sus datos en decisiones estratégicas.**")
-        st.image(r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\MI_LOGO.jpg')
+        st.image(r'SALUD MENTAL Y MUSICA/IMÁGENES/MI_LOGO.jpg')
         st.caption('IA Looka & Me')
         
 p1= st.Page(home_page, title='Inicio')
@@ -51,8 +51,8 @@ def intro():
     st.markdown(texto_intro)
     st.write("")
     st.write('**Trastorno Obsesivo Compulsivo (TOC)**: Es un trastorno de ansiedad caracterizado por pensamientos intrusivos y recurrentes que producen temor, ansiedad o preocupación, y por comportamientos repetitivos llamados compulsiones que se realizan en respuesta a estos pensamientos. **Afecta a un 2-3% de la población**.')   
-    photo1 = (r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\toc_3_doctor_Lozano_com.jpeg')
-    photo2 = (r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\toc_4_fuente_the__new_york_times.jpeg')
+    photo1 = (r'SALUD MENTAL Y MUSICA/IMÁGENES/toc_3_doctor_Lozano_com.jpeg')
+    photo2 = (r'SALUD MENTAL Y MUSICA/IMÁGENES/toc_4_fuente_the__new_york_times.jpeg')
     col1,col2 = st.columns(2)
     with col1:
         st.image(photo1)
@@ -62,8 +62,8 @@ def intro():
         st.caption('Fuente: The New York Times')
     st.write("")
     st.write('**Depresión**: Es un trastorno del estado de ánimo que provoca un sentimiento de tristeza y una pérdida de interés en las actividades que solían ser placenteras. **Afecta a un 5% de la población**.')
-    photo1 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\depresion_4_fuente_web_consultas_com.jpeg'
-    photo2 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\depresion_1_fuente_Nationalgeographic.jpeg'
+    photo1 = r'SALUD MENTAL Y MUSICA/IMÁGENES/depresion_4_fuente_web_consultas_com.jpeg'
+    photo2 = r'SALUD MENTAL Y MUSICA/IMÁGENES/depresion_1_fuente_Nationalgeographic.jpeg'
     col1, col2 = st.columns(2)
     with col1:
         st.image(photo1)
@@ -73,8 +73,8 @@ def intro():
         st.caption('Fuente: National Geographic')
     st.write("")
     st.write('**Ansiedad**: Es un trastorno mental caracterizado por sentimientos de preocupación, ansiedad o miedo que son fuertes y persistentes. **Afecta a un 6% de la población**.')
-    photo1 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\ansiedad_7_fuente_piscologia_y_mente_com.jpeg'
-    photo2 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\ansiedad_6_psicologia_menssana_com.jpeg'
+    photo1 = r'SALUD MENTAL Y MUSICA/IMÁGENES/ansiedad_7_fuente_piscologia_y_mente_com.jpeg'
+    photo2 = r'SALUD MENTAL Y MUSICA/IMÁGENES/ansiedad_6_psicologia_menssana_com.jpeg'
     col1, col2 = st.columns(2)
     with col1:
         st.image(photo1)
@@ -84,8 +84,8 @@ def intro():
         st.caption('Fuente: Psicología Menssana')
     st.write("")
     st.write('**Insomnio**: Es un trastorno del sueño que se caracteriza por la dificultad para conciliar el sueño, mantenerlo o despertarse demasiado temprano y no poder volver a dormirse. **Afecta a un 10% de la población**.')
-    photo1 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\insomnio_2_fuente_ABC.jpeg'
-    photo2 = r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\insomnio_3_fuente_doctor_Alex_Ferré.jpeg'
+    photo1 = r'SALUD MENTAL Y MUSICA/IMÁGENES/insomnio_2_fuente_ABC.jpeg'
+    photo2 = r'SALUD MENTAL Y MUSICA/IMÁGENES/insomnio_3_fuente_doctor_Alex_Ferré.jpeg'
     col1, col2 = st.columns(2)
     with col1:
         st.image(photo1)
@@ -114,7 +114,7 @@ def Análisis():
     st.title('Análisis exploratorio Música y salud mental')
     st.write(' A continuación, se va a realizar un análisis exploratorio de los datos, con el objetivo de obtener información relevante sobre la relación entre la música y la salud mental.')
     st.write('Lo primero que les muestro es una matriz de correlación, que nos permite visualizar la relación entre las variables del dataset.')
-    st.image(r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\Correlation_Spearman.png', use_column_width='auto')
+    st.image(r'SALUD MENTAL Y MUSICA/IMÁGENES/Correlation_Spearman.png', use_column_width='auto')
     # Pongo imagen de matriz de correlación pues con código no sale entera.
     st.write("")
     st.write('A continuación, se muestra un gráfico de barras que representa la frecuencia de las diferentes patologías de la salud mental en la muestra:')
@@ -231,7 +231,7 @@ def Análisis():
     def main():
         st.title('Análisis de la Distribución de Factores Psicológicos y Fisiológicos')
 
-    st.image(r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\subplots_norerun.png')
+    st.image(r'SALUD MENTAL Y MUSICA/IMÁGENES/subplots_norerun.png')
     
     st.write("")
     st.write('Estos gráficos ilustran como afecta la música por género musical y según patología de salud mental:')
@@ -360,7 +360,7 @@ def Machine_Learning():
     st.markdown(texto_algoritmos)
 
     st.write ('Como resultado de la comparativa de todos estos métodos de ML de clasificación, el que ha proporcionado **mejores resultados** a nivel precisión global con un **0.96**, ha sido **ML entrenado con la curve ROC**, mostrando la salida a continuación:')
-    st.image(r'C:\Users\IRENE\Desktop\BOOTCAMP\ROC_FINAL.png')
+    st.image(r'SALUD MENTAL Y MUSICA/IMÁGENES/ROC_FINAL.png')
 
 p6=st.Page(Machine_Learning, title='Machine Learning: Clasificación')
 
@@ -413,7 +413,7 @@ def Conclusiones():
     st.markdown(text_conclusiones)
     st.write("")
     
-    photo1= r'C:\Users\IRENE\Desktop\BOOTCAMP\NEW REPOSITORIES\LA_MUSICA_CURA_eL_ALMA.jpg'
+    photo1= r'SALUD MENTAL Y MUSICA/IMÁGENES/LA_MUSICA_CURA_eL_ALMA.jpg'
     col1, col2, col3 = st.columns(3)
     with col1:
         ""
